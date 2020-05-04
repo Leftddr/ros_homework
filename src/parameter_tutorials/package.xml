@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>parameter_tutorials</name>
+  <version>0.0.0</version>
+  <description>The parameter package</description>
+  <maintainer email="bongwon@todo.todo">bongwon</maintainer>
+  <license>TODO</license>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend> <!-- cpp를 처리하기 위한 것-->
+  <build_depend>std_msgs</build_depend> <!-- msg를 빌드할 때 필요한것 -->
+  <build_depend>message_generate</build_depend> <!--메세지를 생성할때 필요하다-->
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

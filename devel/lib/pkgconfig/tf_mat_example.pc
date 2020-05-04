@@ -1,0 +1,8 @@
+prefix=/home/bongwon/catkin_ws/devel
+
+Name: tf_mat_example
+Description: Description of tf_mat_example
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/bongwon/catkin_ws/devel/lib 
+Requires: 
